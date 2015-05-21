@@ -1,0 +1,113 @@
+body{
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    overflow: visible;
+}
+.container{
+ max-width: 980px;   
+    min-width: 320px;
+}
+/*HEADER*/
+.header{
+    margin-top: 20px;
+}
+.info{
+    float:right;
+}
+
+.div-change-language{
+    float: left;
+}
+.phone-hotline{
+    float:left;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+label.label-phone-hotline{
+    color: #cd4343;
+    margin-left: 15px;
+    font-size: 15px;
+}
+/*LANGUAGE*/
+.btn-change-language{
+    background-color: #f5ffeb;
+    border-radius: 20px;
+    width: 60px;
+    height: 25px;
+    margin-top: -5px;
+    line-height: 25px;
+    background: #f5ffeb url(../images/icon/icon_language_arrow.png) no-repeat 90% center;
+    border: 1px solid #e8e7e7;
+}
+.flag-icon{
+    margin-top: -2px;
+    border-radius: 5px;
+}
+.ul-change-language{
+    background: #e3ebf0;
+}
+.ul-change-language li{
+    cursor: pointer;
+    padding-left: 15px;
+}
+.selected-language{
+    background: #e3ecf0 url(../images/icon/icon_check_language.png) no-repeat 1% center;
+}
+
+/*MENU PAGE*/
+.menu{
+ top:80px;
+ position: absolute;
+    padding-left: 150px;
+}
+.menu-item{
+    text-align: center;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+}
+.btn-menu{
+    background-color: darkgray;
+    height: 50px;
+    width: 90%;
+    font-weight: bold;
+    color: #256730;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+     position: absolute;
+    right: 0px;
+    
+}
+table.table-menu{
+    height: 100%;
+    width: 100%;
+}
+table.table-menu td{
+    text-align: center;
+    font-size: 12px;
+    color: #256730;}
+/*FOOTER CSS*/
+.footer-page{
+    margin-top: 10px;
+}
+.footer-copyright{
+    color: #acacac;
+    font-size: 13px;
+}
+.footer-span-company-name{
+    color:#256730;
+}
+ul.footer-link > li {
+    margin-top: 5px;
+}
+ul.footer-link > li > a{
+     color: #727272;
+    text-decoration: none;
+}
+
+.nopadding{
+    padding: 0 !important;
+}

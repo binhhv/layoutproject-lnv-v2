@@ -2,10 +2,21 @@ body{
     font-size: 12px;
     font-family: "Myriad Pro";
     overflow: visible;
+     /*background-image: url(../images/background-1.png) ;
+      background-size: 100%;*/
 }
 .container{
  max-width: 980px;   
     min-width: 320px;
+}
+
+.background-body{
+    position: absolute;
+  z-index: -9999;
+  top: 20px;
+  width: auto;
+  left: 99px;
+    height: auto;
 }
 /*HEADER*/
 .header{
@@ -92,6 +103,8 @@ table.table-menu td{
 /*FOOTER CSS*/
 .footer-page{
     margin-top: 10px;
+    position: absolute;
+    bottom: 0;
 }
 .footer-copyright{
     color: #acacac;
@@ -110,4 +123,27 @@ ul.footer-link > li > a{
 
 .nopadding{
     padding: 0 !important;
+}
+
+
+/*MENU LINK*/
+.menu-link{
+    margin-top: 10px;
+    text-align: right;
+}
+
+#crumb{
+    float: right;
+}
+#crumb li{
+    float: left;
+    padding: 0 0 0 5px;
+    list-style: outside none none
+}
+#crumb li a{
+    background: white url(../images/icon/icon_arrow_link.png) no-repeat right center;
+      /* line-height: 2.2em; */
+     padding: 0 12px 0 0;
+    text-decoration: none;
+  
 }
