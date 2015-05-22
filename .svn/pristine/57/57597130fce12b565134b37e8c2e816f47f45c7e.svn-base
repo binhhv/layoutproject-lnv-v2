@@ -1,0 +1,33 @@
+<div id="id-container">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 menu-link">
+                    <div id="crumb">
+                <ul >
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                       Loan Used car
+                    </li>
+                </ul>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <p class="company-name-content"><b>NEED MONEY TO BUY USED CAR ?</b></p>
+                    </div>
+                </div>
+                <div class="row  row-content-loan">
+                    <div class="col-md-6 col-xs-12  item-loan-left">
+                           <img src="images/logo_lnv.png"> 
+                    </div>
+              
+                    <div class="col-md-6 col-xs-12  item-loan-right">
+                            12
+                    </div>
+                </div>
+                
+                
+            
+          </div>

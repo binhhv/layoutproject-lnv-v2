@@ -4,18 +4,20 @@ body{
     overflow: visible;
      /*background-image: url(../images/background-1.png) ;
       background-size: 100%;*/
+   
 }
 .container{
  max-width: 980px;   
     min-width: 320px;
+     overflow-x: hidden;
 }
 
 .background-body{
     position: absolute;
   z-index: -9999;
-  top: 20px;
-  width: auto;
-  left: 99px;
+  top: 30px;
+  width: 100%;
+  left: 0px;
     height: auto;
 }
 /*HEADER*/
@@ -78,11 +80,10 @@ label.label-phone-hotline{
     padding-right: 10px;*/
 }
 .btn-menu{
-    background-color: darkgray;
-    height: 50px;
+ /* background-color: darkgray;*/
+    height: 70px;
     width: 90%;
-    font-weight: bold;
-    color: #256730;
+    
     float: left;
     padding-left: 20px;
     padding-right: 20px;
@@ -90,16 +91,42 @@ label.label-phone-hotline{
     margin-right: 20px;*/
      position: absolute;
     right: 0px;
-    
+    /*background-image: url(../images/btn-menu-background.png);
+    background-repeat:no-repeat;
+    background-position: right; */   
+
 }
 table.table-menu{
     height: 100%;
     width: 100%;
+    background-color: #5f9d23;
+        -moz-box-shadow: inset 0px -5px #579427;
+-webkit-box-shadow: inset 0px -5px #579427;
+box-shadow: inset 0px -5px #579427;
+    
+    border: 1px solid #5f9d23;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    behavior: url(border-radius.htc);
+    
+    border-collapse: inherit;
+    cursor: pointer;
 }
 table.table-menu td{
     text-align: center;
-    font-size: 12px;
-    color: #256730;}
+  /*  font-size: 12px;
+    color: #256730;*/
+   
+ 
+}
+table.table-menu td a{
+       font-weight: bold;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
 /*FOOTER CSS*/
 .footer-page{
     margin-top: 10px;
@@ -131,7 +158,7 @@ ul.footer-link > li > a{
 
 /*MENU LINK*/
 .menu-link{
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: right;
 }
 
@@ -149,5 +176,8 @@ ul.footer-link > li > a{
      padding: 0 12px 0 0;
     text-decoration: none;
   
+}
+.nopadding-menu{
+    padding-right: 0px;
 }
 
