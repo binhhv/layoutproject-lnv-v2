@@ -100,13 +100,7 @@
             
             </div>
             
-            
-            
-        </div>
-      
-          <!--CONTAINER-->
-          <div id="id-container">
-              <div class="row">
+            <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 menu-link">
                     <div id="crumb">
                 <ul >
@@ -120,6 +114,11 @@
                     </div>
                 </div>
             </div>
+            
+        </div>
+      
+          <!--CONTAINER-->
+          <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <p class="company-name-content"><b>LOC NHAT VIET COMMERCIAL INVESMENT JOINT STOCK COMPANY</b></p>

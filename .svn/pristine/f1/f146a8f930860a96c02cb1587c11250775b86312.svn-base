@@ -15,7 +15,7 @@
     <!-- Custom styles for this template -->
     <link href="css/gm-common.css" rel="stylesheet">
     <link href="css/gm-common-responsive.css" rel="stylesheet">
-    <link href="css/gm-contact.css" rel="stylesheet">
+    <link href="css/gm-loan-used-car.css" rel="stylesheet">
      <!--<link href="css/gm-reponsive-common.css" rel="stylesheet">-->
     <link href="css/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
 <!--
@@ -34,7 +34,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <title>CONTACT</title>
+    <title>LOAN USED CAR</title>
   </head>
 
   <body >
@@ -100,13 +100,7 @@
             
             </div>
             
-            
-            
-        </div>
-      
-          <!--CONTAINER-->
-          <div id="id-container">
-              <div class="row">
+            <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 menu-link">
                     <div id="crumb">
                 <ul >
@@ -114,58 +108,34 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                       Contact us
+                       Loan Used car
                     </li>
                 </ul>
                     </div>
                 </div>
             </div>
+            
+        </div>
+      
+          <!--CONTAINER-->
+          <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
-                        <p class="company-name-content"><b>LOC NHAT VIET COMMERCIAL INVESMENT JOINT STOCK COMPANY</b></p>
+                        <p class="company-name-content"><b>NEED MONEY TO BUY USED CAR ?</b></p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 col-xs-12">
-                        <p class="address-content">
-                            <table>
-                                <tr>
-                                    <td><b> 212 Bis Trần Hưng Đạo, Phường Nguyễn Cư Trinh, Quận 1, Tp Hồ Chí Minh</b></td>
-                                </tr>
-                            </table>
-                           
-                        </p>
+                <div class="row  row-content-loan">
+                    <div class="col-md-6 col-xs-12  item-loan-left">
+                           <img src="images/logo_lnv.png"> 
+                    </div>
+              
+                    <div class="col-md-6 col-xs-12  item-loan-right">
+                            12
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 col-xs-12">
-                        <p class="tel-content">
-                            <table>
-                                <tr>
-                                    <td><b>Tel : 08 3697 8895</b></td>
-                                </tr>
-                            </table>
-                            
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-xs-12">
-                        <p class="email-content">
-                            <table>
-                                <tr>
-                                    <td><b>Email : info@camvayxe.com.vn</b></td>
-                                </tr>
-                            </table>
-                        </p>
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 row-map">
-              <div class="map-company" id="id-map-company">
-              </div>
-            </div>
-            </div>
+                
+                
+            
           </div>
           <!--FOOTER-->
       <footer class="footer-page"  style="position:relative;">
@@ -177,9 +147,6 @@
      <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/gm-common.js"></script>
-      <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
-  
-     <script src="js/gm-contact.js"></script>
-<!--     <script src="js/script.min.js"></script>-->
+      
   </body>
 </html>

@@ -120,10 +120,7 @@ ul.footer-link > li > a{
      color: #727272;
     text-decoration: none;
 }
-.footer-copyright{
-    margin-top: 10px;
-    position: absolute;
-}
+
 .nopadding{
     padding: 0 !important;
 }
@@ -150,4 +147,3 @@ ul.footer-link > li > a{
     text-decoration: none;
   
 }
-

@@ -84,10 +84,16 @@ $("#menu").click(function(){
      $("ul.ul-change-language li").each(function(n,v){
                 if($(this).attr("data-flag")=== $("#id-current-language").attr("data-flag")){
                    $(this).toggleClass("selected-language");
+                   
                 }
         });
      
     $("ul.ul-change-language li").click(function(event) {
+        var languageSelect = $(this).attr("data-language");
+         var scope = angular.element(document.getElementById("id-language")).scope();
+         scope.$apply(function () {
+        scope.translate(languageSelect);
+    });
         var current =  $("#id-current-language");
         var flagCurrent = current.attr("data-flag");
         $("ul.ul-change-language li").each(function(n,v){
