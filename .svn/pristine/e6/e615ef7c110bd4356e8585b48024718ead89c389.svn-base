@@ -1,0 +1,67 @@
+<div id="id-contact" >
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 menu-link">
+                    <div id="crumb">
+                <ul >
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      {{translation.CONTACT}}
+                    </li>
+                </ul>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <p class="company-name-content"><b>LOC NHAT VIET COMMERCIAL INVESMENT JOINT STOCK COMPANY</b></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <p class="address-content">
+                            <table>
+                                <tr>
+                                    <td><b> 212 Bis Trần Hưng Đạo, Phường Nguyễn Cư Trinh, Quận 1, Tp Hồ Chí Minh</b></td>
+                                </tr>
+                            </table>
+                           
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <p class="tel-content">
+                            <table>
+                                <tr>
+                                    <td><b>Tel : 08 38375608</b></td>
+                                </tr>
+                            </table>
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <p class="email-content">
+                            <table>
+                                <tr>
+                                    <td><b>Email : info@camvayxe.com.vn</b></td>
+                                </tr>
+                            </table>
+                        </p>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 row-map">
+              <div class="map-company" id="id-map-company">
+              </div>
+                    <!--<div id="class" ng-repeat="marker in markers | orderBy : 'title'">
+         <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
+    </div>-->
+            </div>
+            </div>
+          </div>
+
+<script src="js/gm-contact.js"></script>

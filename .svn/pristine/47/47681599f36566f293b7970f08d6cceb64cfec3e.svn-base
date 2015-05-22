@@ -53,7 +53,7 @@
 
   <body>
       
-      <div class="container content-page" id="id-language"  ng-app="myApp" ng-controller="myController">
+      <div class="container" id="id-language"  ng-app="myApp" ng-controller="myController">
           <!--HEADER-->
         <div class="header" >
             <a href="#home"><img src="images/logo_lnv.png"></a>

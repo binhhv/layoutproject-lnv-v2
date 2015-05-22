@@ -9,11 +9,9 @@ body{
 .container{
  max-width: 980px;   
     min-width: 320px;
-    
+     overflow-x: hidden;
 }
-.content-page{
-    overflow-x: hidden;
-}
+
 .background-body{
     position: absolute;
   z-index: -9999;
