@@ -12,7 +12,7 @@ body{
     
 }
 .content-page{
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 .background-body{
     position: absolute;
